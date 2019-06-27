@@ -465,6 +465,18 @@
 #define ATSAML21E15B_STACK_ADDR              (0x20001000ul)
 #define ATSAML21E15B_NVMCTRL_BASE            (0x41004000ul)
 
+/* SAMR34 */
+#define ATSAML21J18B_NAME                    "ATSAMR34J18B"
+#define ATSAML21J18B_CHIPID                  (0x10810028ul)  // DIE & REV bitfields masked in Samba::chipId()
+#define ATSAML21J18B_FLASH_BASE              (0x00000000ul + ATSAML_BOOTLOADER_SIZE)
+#define ATSAML21J18B_FLASH_PAGE_SIZE         (64ul)
+#define ATSAML21J18B_FLASH_PAGES             (4096ul)
+#define ATSAML21J18B_FLASH_PLANES            (1ul)
+#define ATSAML21J18B_FLASH_LOCK_REGIONS      (16ul)
+#define ATSAML21J18B_BUFFER_ADDR             (0x20004000ul)
+#define ATSAML21J18B_STACK_ADDR              (0x20008000ul)
+#define ATSAML21J18B_NVMCTRL_BASE            (0x41004000ul)
+
 /* SAMC21 */
 #define ATSAMC21J18A_NAME                    "ATSAMC21J18A"
 #define ATSAMC21J18A_CHIPID                  (0x11010000ul)  // DIE & REV bitfields masked in Samba::chipId()
